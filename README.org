@@ -7,18 +7,19 @@ Source code for my personal website.
 
 ** Prerequisites
 
-You can download Hugo from snap by running
-
-#+BEGIN_SRC shell
-$ snap install hugo
-#+END_SRC
-
-This project also depends on git submodules for the theme. In order for the
-project to compile, you must run
+This project depends on git submodules for the theme. In order for the project
+to compile, you must run
 
 #+BEGIN_SRC shell
 $ git submodule init
 $ git submodule update
+#+END_SRC
+
+Note that those two commands will not fetch updates from the submodules'
+remotes: to do that, running
+
+#+BEGIN_SRC shell
+$ git submodule update --remote
 #+END_SRC
 
 ** Local Development
