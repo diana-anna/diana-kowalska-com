@@ -4,12 +4,12 @@ theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
-paginate = 20
-
 pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
+[pagination]
+pagerSize = 20
 
 [params]
   author = "Diana Kowalska"
